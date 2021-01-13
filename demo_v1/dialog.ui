@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>541</width>
+     <height>581</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_local_ip">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>40</y>
+     <width>54</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>本地Ip</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_local_ip">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>40</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_local_port">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>80</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>本地端口号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_local_port">
+   <property name="geometry">
+    <rect>
+     <x>652</x>
+     <y>80</y>
+     <width>81</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
